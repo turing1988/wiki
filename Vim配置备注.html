@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Vim配置备注</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link type="text/css" rel="stylesheet" href="styles/shCore.css" /> 
+	<link type="text/css" rel="stylesheet" href="styles/shThemeEmacs.css" /> 
+	<script type="text/javascript" src="scripts/shCore.js"></script> 
+	<script type="text/javascript" src="scripts/shBrushPython.js"></script>
+	<script type="text/javascript" src="scripts/shBrushCpp.js"></script> 
+	<script type="text/javascript" src="scripts/shBrushBash.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJava.js"></script>
+	<script type="text/javascript">
+	  SyntaxHighlighter.all();
+	</script>
+</head>
+    <!--<body style="background: #C3C3C3; font-family: Monaco" >-->
+    <!-- <span style="color: #81c2ba "> -->
+
+<h2 id="toc_0.1">Vim配置备注</h2>
+
+<ol>
+<li>
+VIM配色
+
+<ul>
+<li>
+比较喜欢的几个VIM颜色 巧克力 INKPOT CANYCODE  JIMMY RELAXGREEN DESERTEX TYPOFREE
+
+</ul>
+<li>
+leader ","
+
+<ul>
+<li>
+,vh Vimwiki2HTML
+
+<li>
+,vb Vimwiki2HTMLBrowse
+
+<li>
+,va VimwikiALL2html
+
+<li>
+,s 快速保存
+
+<li>
+,w 快速退出（保存）
+
+<li>
+,q 快速退出（不保存）
+
+<li>
+,tt 快速打开新标签（在本路径下）
+
+<li>
+,tc 快速关闭标签（在本路径下）
+
+</ul>
+<li>
+C代码编辑
+
+<ul>
+<li>
+C-\ 代码片段补全
+
+<li>
+Tab 代码（变量名 函数名 宏名 结构体成员 结构体名）补全
+
+<li>
+TabTab 代码补全查询
+
+</ul>
+<li>
+快捷键列表
+
+<ul>
+<li>
+cscope cheatkey
+ &lt;leader&gt;s* cscope打开
+<pre  vim>
+s  查找C语言符号，函数 宏 枚举值
+g  查找选中量定义的位置，类似ctags的功能
+c  查找调用本函数的函数
+d  查找本函数调用的函数
+t  查找指定的字符串
+e  查找egrep模式 相当于egrep功能
+f  查找并打开文件，类似vim的find功能
+i  查找包含本文的文件
+</pre>
+
+<li>
+F2 自动生成cscope与tags
+
+<li>
+F3 调出winmanager的文件浏览器
+
+<li>
+F4 调出tags浏览器
+
+<li>
+F5 调出Lookup File
+
+<ul>
+<li>
+A-F5 首列快速添加注释//
+
+</ul>
+<li>
+F6 调出字符编码表
+
+<ul>
+<li>
+A-F6 首列快速取消注释 //
+
+</ul>
+<li>
+F7 代码使用astyle格式化
+
+<li>
+F8 CheckSyntax
+
+<li>
+F9 编译C代码
+
+<ul>
+<li>
+C-F9 运行
+
+<li>
+S-F9 带参数运行
+
+</ul>
+<li>
+F10 系统菜单 F11窗口全屏  F12 保留
+
+</ul>
+</ol>
+
+<h2 id="toc_0.2">Vim碎碎</h2>
+<ol>
+<li>
+消除C-support产生的file-description-header 
+    注释c.vim中 function! C_InsertTemplateWrapper () 两个call
+
+</ol>
+
+</body>
+</html>
