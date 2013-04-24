@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>bin学习笔记</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link type="text/css" rel="stylesheet" href="styles/shCore.css" /> 
+	<link type="text/css" rel="stylesheet" href="styles/shThemeEmacs.css" /> 
+	<script type="text/javascript" src="scripts/shCore.js"></script> 
+	<script type="text/javascript" src="scripts/shBrushPython.js"></script>
+	<script type="text/javascript" src="scripts/shBrushCpp.js"></script> 
+	<script type="text/javascript" src="scripts/shBrushBash.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJava.js"></script>
+	<script type="text/javascript">
+	  SyntaxHighlighter.all();
+	</script>
+</head>
+    <!--<body style="background: #C3C3C3; font-family: Monaco" >-->
+    <!-- <span style="color: #81c2ba "> -->
+
+<ol>
+<li>
+/bin目录下所有命令
+<pre  class="brush:shell">
+awk            gawk        pidof
+bash           grep        ping
+bashbug        groups      ping6
+bunzip2        gunzip      ps
+bzcat          gzip        pwd
+bzip2          hostname    rm
+bzip2recover   keyctl      rmdir
+cat            kill        sed
+chgrp          ln          sh
+chmod          loadkeys    stty
+chown          login       su
+cp             lowntfs-3g  sync
+date           ls          tar
+dd             lsblk       traceroute
+df             mbchk       traceroute6
+dmesg          mkdir       true
+dnsdomainname  mknod       ulockmgr_server
+domainname     more        umount
+du             mount       uname
+echo           mountpoint  uncompress
+false          mv          zcat
+findmnt        netstat
+fusermount     ntfs-3g
+</pre>
+
+<li>
+几个命令的使用
+
+<ul>
+<li>
+bashbug：bash的debug模式
+
+<li>
+dd：转换和复制文件
+
+<ul>
+<li>
+比如制作启动盘 dd if=iso file path of=/dev/U盘块设备
+
+</ul>
+<li>
+df：显示挂载点使用率
+
+<ul>
+<li>
+-k --block-size=m：使用K M做单位显示各挂载点利用率
+
+</ul>
+<li>
+dmesg：打印或者控制内核缓存信息
+
+<ul>
+<li>
+-c：打印后清除缓存
+
+</ul>
+<li>
+du：打印文件空间利用 
+
+<li>
+pidof：打印执行程序PID
+
+<li>
+ping6：测试IPV6网站是否连通
+
+<li>
+ls：罗列目录下文件
+
+<ul>
+<li>
+-l：长信息显示
+
+<li>
+-a：打印所有文件 包含隐藏文件
+
+<li>
+-b：按照c语言风格打印文件既 .c .h格式
+
+<li>
+-c：按照修改时间排序输出
+
+<li>
+-C：按照列输出
+
+<li>
+-d：显示文件夹
+
+<li>
+-h：友好的显示文件大小
+
+<li>
+-i：打印文件的inode节点
+
+<li>
+-k：按照k单位显示文件大小
+
+<li>
+-Q：输出时加上双引号
+
+<li>
+-r：反排序输出
+
+<li>
+-S：按照文件大小排序
+
+<li>
+-s：输出文件大小
+
+<li>
+-t：按照文件新建事件排序
+
+<li>
+-x：按字母排序后按照行输出
+
+<li>
+-X：按照字母表排序
+
+<li>
+-1：一行显示一个文件或目录
+
+</ul>
+<li>
+lsblk：打印块设备
+
+</ul>
+</ol>
+
+</body>
+</html>
