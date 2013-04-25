@@ -1,7 +1,7 @@
 html{
     color: #cad3d6;
     min-height: 100%;
-    background-color: #123;
+    background-color: #EEEEEE;
     padding: 0;
     margin: 0;
 
@@ -18,6 +18,7 @@ body {
 
 p, ul, li, table {
 
+    color: #2c2624;
     margin: 0;
     padding: 0;
 
@@ -25,7 +26,7 @@ p, ul, li, table {
 
 a {
 
-    color: #0df;
+    color: #003740;
     text-decoration: none;
     padding-bottom: 1px;
 
@@ -33,7 +34,7 @@ a {
 
 a:hover {
 
-    color: #5ef;
+    color: #009cb5;
     padding-bottom: 0;
     border-bottom: 1px solid #468;
 
@@ -65,7 +66,7 @@ h1 {
 
     font-size: 1.7em;
     padding-bottom: 0.1em;
-    color: #f37;
+    color: #258FB8;
     margin-bottom: 0.5em;
     margin-top: 0;
 
@@ -74,7 +75,7 @@ h1 {
 h2 {
 
     font-size: 1.52em;
-    color: #fd5;
+    color: #4A478B;
     margin-top: 1em;
 
 
@@ -83,7 +84,7 @@ h2 {
 h3 {
 
     font-size: 1.22em;
-    color: #df5;
+    color: #7F9331;
     width: 80%;
     margin-top: 0.9em;
     margin-bottom: 0.4em;
@@ -93,7 +94,7 @@ h3 {
 h4 {
 
     font-size: 1.15em;
-    color: #6d9;
+    color: #46996A;
     margin-top: 0.8em;
 
 
@@ -102,19 +103,20 @@ h4 {
 h5 {
 
     font-size: 1.05em;
-    color: #e3e3f3;
+    color: #3E3E43;
 
 
 }
 h6 {
 
     font-size: 1.0em;
-    color: #99CC00;
+    color: #3d5200;
 
 }
 
 p, pre, blockquote, table, ul, ol, dl {
 
+    color: #0f0f00;
     margin: 0.5em 0 1em;
 
 }
@@ -173,15 +175,15 @@ blockquote, pre {
 
 blockquote {
 
-    background: rgba(255,30,120,0.1);
-    border: 1px solid rgba(230,0,20,0.2);
+    background: rgba(180,180,180,0.1);
+    border: 1px solid rgba(200,200,200,0.2);
 
 }
 
 blockquote:hover, pre:hover {
 
-    color: #eee;
-    background: rgba(255,30,120,0.25);
+    color: #000000;
+    background: rgba(130,130,130,0.25);
 
 }
 
@@ -226,7 +228,7 @@ th, td {
 
 th {
 
-    background-color: #f0f0f0;
+    background-color: #000000;
 
 
 }
@@ -250,7 +252,7 @@ del {
 strong, b {
 
     font-weight: 600;
-    color: #eef;
+    color: #010100;
 
 }
 
@@ -264,7 +266,7 @@ em, i {
 textarea {
 
     background: transparent;
-    color: #fff;
+    color: #000;
     resize: none;
 
 }
@@ -285,16 +287,16 @@ textarea {
     display: none;
     overflow: auto;
     overflow-x: hidden;
-    border: 1px solid #F0C81E;
+    border: 1px solid #0047e1;
     border-radius: 0 0 1px 1px;
     -moz-border-radius: 0 0 1px 1px;
-    color: #999;
-    background: #0C1F2C;
+    color: #060606;
+    background: #f4e0d4;
     background: rgba(10,30,40,0.85);
     padding: 12px;
-    box-shadow: 0 1px 8px #000;
-    -webkit-box-shadow: 0 1px 8px #000;
-    -moz-box-shadow: 0 1px 8px #000;
+    box-shadow: 0 1px 8px #fff;
+    -webkit-box-shadow: 0 1px 8px #fff;
+    -moz-box-shadow: 0 1px 8px #fff;
 
 }
 
@@ -302,10 +304,10 @@ textarea {
 
     text-align: center;
     font-size: 12px;
-    background: #F0C81E;
+    background: #0f47e1;
     border-radius: 2px 2px 0 0;
     -moz-border-radius: 2px 2px 0 0;
-    color: #122;
+    color: #0e0d0d;
     position: relative;
     z-index: 101;
     cursor: pointer;
@@ -320,21 +322,21 @@ textarea {
 
 .toc li {
 
-    color: #eff;
+    color: #010000;
 
 }
 
 .toc a {
 
-    color: #eff;
+    color: #010000;
 
 }
 
 .todo {
 
     font-weight: bold;
-    background-color: #f0ece8;
-    color: #a03020;
+    background-color: #0f1417;
+    color: #5fcfdf;
 
 }
 
